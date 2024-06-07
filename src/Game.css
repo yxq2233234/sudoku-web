@@ -1,0 +1,44 @@
+.table {
+  display: inline-block;
+  border: 3px solid black;
+  max-width: 540px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+  color: gray;
+}
+
+.cell:hover {
+  background-color: #e6e6e6;
+}
+
+.borderRight {
+  border-right: 2px solid black;
+}
+
+.borderBottom {
+  border-bottom: 2px solid black;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.active {
+  background-color: darkslateblue;
+}
